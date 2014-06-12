@@ -8,7 +8,7 @@ class Mbt < Formula
   depends_on 'ticcutils' => :build
   depends_on 'timbl' => :build
   depends_on 'timblserver' => :build
-  depends_on 'mbtserver' => :build
+  depends_on 'mbt' => :build
 
   def install
     system "./configure", "--prefix=#{prefix}"
