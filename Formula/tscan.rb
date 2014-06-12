@@ -5,6 +5,8 @@ class Tscan < Formula
   url "http://software.ticc.uvt.nl/tscan-0.3.tar.gz"
   sha1 "f18d423669ec2b7ae7bff4eb62eeb051e2702193"
 
+  depends_on 'icu4c' => :build
+
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
 
