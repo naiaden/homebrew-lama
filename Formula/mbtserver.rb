@@ -1,6 +1,6 @@
 require "formula"
 
-class Mbt < Formula
+class Mbtserver < Formula
   homepage ""
   url "http://software.ticc.uvt.nl/mbtserver-0.8.tar.gz"
   sha1 "b610cb0f2a1c01136499ea23b2ab0d958c486bd8"
