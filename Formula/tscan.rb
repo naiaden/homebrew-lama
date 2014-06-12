@@ -6,6 +6,7 @@ class Tscan < Formula
   sha1 "f18d423669ec2b7ae7bff4eb62eeb051e2702193"
 
   depends_on 'icu4c' => :build
+  depends_on 'ticcutils' => :build
   depends_on 'timbl' => :build
   depends_on 'timblserver' => :build
 
