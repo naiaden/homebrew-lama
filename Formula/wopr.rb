@@ -6,6 +6,7 @@ class Wopr < Formula
   sha1 '572dcdea1fcd3e50981ce52a0fbe037e2f4b6401'
 
   depends_on 'pkg-config' => :build
+  depends_on 'libfolia' => :build
   depends_on 'ticcutils' => :build
   depends_on 'timbl' => :build
 
