@@ -2,8 +2,8 @@ require "formula"
 
 class Ticcutils < Formula
   homepage "https://github.com/proycon/ticcutils"
-  url "http://software.ticc.uvt.nl/ticcutils-0.4.tar.gz"
-  sha1 "093e79800c74d9b228c2e5fac8a55d5eba78132b"
+  url "http://software.ticc.uvt.nl/ticcutils-0.5.tar.gz"
+  sha1 "ca77927ae76adde34d244c2073be66d4e7dc3034"
 
   head "https://github.com/proycon/ticcutils.git"
 
