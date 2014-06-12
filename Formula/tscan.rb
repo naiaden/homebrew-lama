@@ -9,6 +9,7 @@ class Tscan < Formula
   depends_on 'ticcutils' => :build
   depends_on 'timbl' => :build
   depends_on 'timblserver' => :build
+  depends_on 'libfolia' => :build
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
